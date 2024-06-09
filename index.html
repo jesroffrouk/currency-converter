@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>currency converter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h3>CURRENCY CONVERTER</h3>
+      <div class="content">
+        <form action="">
+          <div class="input">
+            Enter price: <input type="number" id="input-tag" />
+          </div>
+          <div class="currency">
+            <div class="USD">
+              <div class="flag">
+                <img src="https://flagsapi.com/US/flat/64.png" />
+              </div>
+              <div class="dropdown">
+                <select name="from" id="from">
+                </select>
+              </div>
+            </div>
+            <div class="exchange">X</div>
+            <div class="INR">
+              <div class="flag">
+                <img src="https://flagsapi.com/IN/flat/64.png" />
+              </div>
+              <div class="dropdown">
+                <select name="to" id="to">
+                </select>
+              </div>
+            </div>
+          </div>
+          <h4>1 USD = 74 INR</h4>
+          <input type="submit" value="check currency rate" id="submit" />
+        </form>
+      </div>
+    </div>
+
+    <script src="code.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
